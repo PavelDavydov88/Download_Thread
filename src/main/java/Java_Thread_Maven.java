@@ -17,7 +17,7 @@ import java.util.regex.Pattern;
 
         public  static void main(String[] args) throws IOException, URISyntaxException, InterruptedException {
 
-            Thread t1 = new Thread(new LoadThread("KURGANGK", "KURGANGK", "****"));
+            Thread t1 = new Thread(new LoadThread("KURGANGK", "KURGANGK", "******"));
             Thread t2 = new Thread(new LoadThread("NOYABPGE", "NOYABPGE", "***"));
             Thread t3 = new Thread(new LoadThread("KURGANTC", "KURGANTC", "***"));
             Thread t4 = new Thread(new LoadThread("SALEHARD", "SALEHARD", "***"));
